@@ -11,10 +11,6 @@ child master: :master do
   extends "spree/api/v1/variants/small"
 end
 
-child variants: :variants do
-  extends "spree/api/v1/variants/small"
-end
-
 child option_types: :option_types do
   attributes *option_type_attributes
 end
